@@ -36,6 +36,14 @@ int push(int value)
     return value;
 }
 
+//pop operation : remove the top most element from the stack
+void pop() 
+{
+    if (isEmpty()) {
+        cout << "Stack is empty." << endl;
+    }
+}
+
 bool isEmpty() 
 {
     return top == NULL;
