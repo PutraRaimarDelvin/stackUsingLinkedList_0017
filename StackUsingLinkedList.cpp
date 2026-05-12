@@ -47,6 +47,15 @@ void pop()
     cout << "Popped value : " << top->data << endl;
 }
 
+//peek/top operation : retrieve the value of the top most element without removing it
+void peek() 
+{
+    if (top == NULL )
+    {
+        cout << "List is Empty." << endl;
+    }
+}
+
 bool isEmpty() 
 {
     return top == NULL;
