@@ -35,4 +35,9 @@ int push(int value)
     cout << "Push value : " << value << endl;
     return value;
 }
+
+bool isEmpty() 
+{
+    return top == NULL;
+    }
 };
